@@ -1,0 +1,44 @@
+#login_page h1{
+    border-width: 80em;
+}
+
+
+
+h3{
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+
+label{
+    font-family: cursive;
+    font-weight: 900;
+}
+#button_style{
+      background-color: red;
+      color: aliceblue;
+      font-weight: 700;
+}
+body{
+    padding-top: 5% ;
+}
+div{
+    width:300px;
+    height:300px;
+    border: 1px;
+
+}
+#output {
+	background: white;
+	border-radius: 10px;
+    border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+
+
+    
+    
+
+

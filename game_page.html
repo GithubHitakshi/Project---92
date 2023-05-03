@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>THE ULTIMATE MATH QUIZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="https://img.freepik.com/free-vector/background-gradient-with-bokeh-effect_23-2148382073.jpg">
+
+    <h4 id="player1_name"></h4>: <span id="player1_score">0</span>
+	<br>
+	<h4 id="player2_name"></h4>: <span id="player2_score">0</span>
+
+    <center>
+        <h1 style="border: 60%; border-color: blueviolet; border-style: dashed; border-width:6px;">THE ULTIMATE MATH
+            QUIZ!!</h1>
+
+    </center>
+
+
+
+    <center>
+        <h3 id="q_turn"></h3>
+        <h3 id="a_turn"></h3>
+        <br> <br>
+        <div id="output" class="col-lg-6"></div>
+
+        <h3>NUMBER - 1</h3>
+        <input type="text" id="ans_p1" placeholder="Enter a NUMBER">
+        <br>
+        <h3>NUMBER - 2</h3>
+        <input type="text" id="ans_p2" placeholder="Enter a NUMBER">
+        <br>
+        <br>
+        <button style="background-color: btn btn-success" onclick="sendword()">SEND</button>
+
+    </center>
+
+
+    <script src="game_page.js"></script>
+
+</body>
+
+</html>
